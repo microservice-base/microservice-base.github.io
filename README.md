@@ -2,6 +2,10 @@
 
 [Link to another page](./another-page.md).
 
+
+[Link to page1](././pages/page1.md).
+
+
 You can use the [editor on GitHub](https://github.com/microservice-base/microservice-base.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
