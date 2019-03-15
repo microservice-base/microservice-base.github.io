@@ -14,14 +14,15 @@ Java dilinde yazdığımız kodları test etmek için kullanabileceğimiz bir ç
 
 JUnit, Java dili ile geliştirilen uygulamalarda  kullanabileceğimiz yazılımda en küçük birimleri test etmemizi sağlayan  bir kütüphanedir.
 
+- https://junit.org/
+
 JUnit testlerinin amacı Java sınıfını ve sahip olduğu tüm bağımlılıkları test etmek değildir.
 JUnit testlerinde Java sınıfları izole edilmiş olarak düşünülür ve sınıfların işlevleri test edilir.
 
-# https://junit.org/
 
 Bir örnek ile ilerleyelim.
 
-# https://github.com/junit-team/junit4/wiki/Getting-started#create-a-test
+- https://github.com/junit-team/junit4/wiki/Getting-started#create-a-test
 
 Bir sınıfımız var ve içerisinde bir metot var.
 
@@ -65,12 +66,60 @@ Bu ifadeden başka test sınıfları içinde metotlarda kullanılacak başka ifa
  @AfterClass     sınıf için bir kez ve en son çalışır
 ```
 
-## Junit Assertion
+### Junit Assertion
 Yazdığımız test metodumuzun içinde o metottan beklediğimiz durumu kontrol etmek isteriz.
-Bunun için aşağıdaki listemizdeki elemanlar ile bu kontrolü yapabiliriz.
+O metot içindeki iş mantıklarını parçalayarak sonuçlarını test etmek isteriz.
 
 - https://github.com/junit-team/junit4/wiki/Assertions 
 
+Kullanılması çok tercih edilenlere bakalım.
 
+```
+ assertEquals()  		--> karşılaştırılan nesne örneğini içlerindeki equals() metodu ile test eder.
+ assertSame()  			--> karşılaştırılan nesne örneğini içlerindeki equals() metodu kullanmasan test eder.
+ assertNull()  			--> parantez içindeki değerin null olmasını bekler
+ assertNotNull()  		--> parantez içindeki değerin null olmamasını bekler
+ assertTrue() 			--> parantez içindeki değerin true olmasını bekler 
+ assertFalse() 			--> parantez içindeki değerin false olmasını bekler
+ assertArrayEquals()    --> parametre olarak verilen dizi karşılaştırılır
+```
+
+### Junit Parameter
+
+Bir test metodunu farklı test parametreleri ile tekrar terkra test etmek isteyebiliriz. 
+Bu durumda aynı metodun farklı veri parametresi alan hallerini yazmak yerine şu kütüphaneden yararlanabiliriz.
+
+örneğin 
+
+@Parameters("a","b","c") yazımı ile  metoda gönderilerek parametreleri tek noktadan yönetebiliyoruz.
+
+- http://pragmatists.github.io/JUnitParams 
+
+- https://github.com/Pragmatists/JUnitParams 
+
+
+### Junit Exception
+
+Bir işlem içerisinden istediğimiz bir istisna (exception) durumunu oluşturup test edebiliriz.
+
+```
+   @Autowired
+   private ElementsDAO elementsDAO;
+
+   @Rule
+   public ExpectedException expected = ExpectedException.none();
+   
+   @Test
+   public void testExample() throws Exception {
+
+   	int index = 10;
+
+   	e.expect(ArrayIndexOutOfBoundsException.class);
+   	e.expectMessage(" you have exceeded the maximum element count");
+   
+   	elementsDAO.getElementByIndex(index);
+   }
+
+```
 _yay_
 [back](https://microservice-base.github.io/)
