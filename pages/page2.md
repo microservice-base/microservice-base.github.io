@@ -154,9 +154,12 @@ Devre dışı bırakır
 
 ## Hamcrest
 
-Junit ile yazılan testlere yardımcı olarak daha okunabilir hallerini yazabilmemize yardım eder.
+Birçok dildeki test sınıfları içindeki metotlara yardımcı olarak daha okunabilir hallerini yazabilmemize yardım eder.
+
+- http://hamcrest.org/
 
 Bir eşleştirme,karşılaştırma kütüphanesidir. 
+
 
 
 _yay_
