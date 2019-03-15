@@ -17,9 +17,11 @@ JUnit, Java dili ile geliştirilen uygulamalarda  kullanabileceğimiz yazılımd
 JUnit testlerinin amacı Java sınıfını ve sahip olduğu tüm bağımlılıkları test etmek değildir.
 JUnit testlerinde Java sınıfları izole edilmiş olarak düşünülür ve sınıfların işlevleri test edilir.
 
-- https://junit.org/
+# https://junit.org/
 
 Bir örnek ile ilerleyelim.
+
+# https://github.com/junit-team/junit4/wiki/Getting-started#create-a-test
 
 Bir sınıfımız var ve içerisinde bir metot var.
 
@@ -49,7 +51,6 @@ public class CalculatorTest {
   }
 }
 
-## https://github.com/junit-team/junit4/wiki/Getting-started#create-a-test
 ```
 
 Test eden metodu belirtmek için metodumuz üzerine **@Test** ifadesi ile belirtiyoruz.
@@ -65,6 +66,10 @@ Bu ifadeden başka test sınıfları içinde metotlarda kullanılacak başka ifa
 ```
 
 ## Junit Assertion
+Yazdığımız test metodumuzun içinde o metottan beklediğimiz durumu kontrol etmek isteriz.
+Bunun için aşağıdaki listemizdeki elemanlar ile bu kontrolü yapabiliriz.
+
+- https://github.com/junit-team/junit4/wiki/Assertions 
 
 
 _yay_
