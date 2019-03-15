@@ -95,14 +95,15 @@ Kullanılması çok tercih edilenlere bakalım.
 Bir test metodunu farklı test parametreleri ile tekrar terkra test etmek isteyebiliriz. 
 Bu durumda aynı metodun farklı veri parametresi alan hallerini yazmak yerine şu kütüphaneden yararlanabiliriz.
 
-örneğin 
-
-@Parameters("a","b","c") yazımı ile  metoda gönderilerek parametreleri tek noktadan yönetebiliyoruz.
 
 - http://pragmatists.github.io/JUnitParams 
 
 - https://github.com/Pragmatists/JUnitParams 
 
+```
+@Parameters("a","b","c") yazımı ile  metoda gönderilerek parametreleri tek noktadan yönetebiliyoruz.
+
+```
 
 ### Junit Exception
 
