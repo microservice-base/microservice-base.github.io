@@ -102,24 +102,51 @@ Bu durumda aynı metodun farklı veri parametresi alan hallerini yazmak yerine �
 
 Bir işlem içerisinden istediğimiz bir istisna (exception) durumunu oluşturup test edebiliriz.
 
-```
-   @Autowired
-   private ElementsDAO elementsDAO;
+Örneğin listede olmayan bir değeri çağırdığımızda bu durumu anlamak ve yönetmek istiyoruz.
 
-   @Rule
-   public ExpectedException expected = ExpectedException.none();
-   
-   @Test
-   public void testExample() throws Exception {
-
-   	int index = 10;
-
-   	e.expect(ArrayIndexOutOfBoundsException.class);
-   	e.expectMessage(" you have exceeded the maximum element count");
-   
-   	elementsDAO.getElementByIndex(index);
-   }
+- https://github.com/junit-team/junit4/wiki/Exception-testing#expectedexception-rule
 
 ```
+@Rule
+public ExpectedException thrown = ExpectedException.none();
+
+@Test
+public void shouldTestExceptionMessage() throws IndexOutOfBoundsException {
+    List<Object> list = new ArrayList<Object>();
+ 
+    thrown.expect(IndexOutOfBoundsException.class);
+    thrown.expectMessage("Index: 0, Size: 0");
+    list.get(0); // execution will never get past this line
+}
+
+```
+
+### Junit Suite
+
+Yazdığımız testlerin tek noktadan çalıştırılmaya başlamasını sağlayabiliriz.
+
+**@Suite** ifadesi ile birden fazla test sınıfını koşturabiliriz.
+    
+```
+  @RunWith(Suite.class)
+  @SuiteClasses({ UnitTest.class, SeviceTest.class })
+  public class AllTestsForProduct {
+  }
+```
+
+**@Ignore** ifadesi yazılmış fakat çalıştırılmasını istemediğimiz test metotlarının işaretlenerek çalışmasını engeller.
+Devre dışı bırakır
+
+```
+  @Ignore(value=" Bu metot örnek olsun diye çalıştırılmadı.")
+  @Test
+  public void testPrintMessage() {
+    System.out.println("hello");
+  }
+```
+
+
+## Hamcrest
+
 _yay_
 [back](https://microservice-base.github.io/)
