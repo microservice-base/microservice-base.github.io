@@ -32,7 +32,7 @@ Bir örnek ile ilerleyelim.
 
 Bir sınıfımız var ve içerisinde bir metot var.
 
-```
+```java
 public class Calculator {
   public int evaluate(String expression) {
     int sum = 0;
@@ -45,7 +45,7 @@ public class Calculator {
 
 Sınıfımızın içindeki metodun işlevini test etmek için başka bir sınıf oluşturuyoruz.
 
-```
+```java
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -64,7 +64,7 @@ Test eden metodu belirtmek için metodumuz üzerine **@Test** ifadesi ile belirt
 
 Bu ifadeden başka test sınıfları içinde metotlarda kullanılacak başka ifadeler mevcuttur.
 
-```
+```java
  @BeforeClass    sınıf için bir kez ve ilk olarak çalışır
  @Before         her test metodudan önce  
  @Test           test metodunun kendisindir
@@ -80,7 +80,7 @@ O metot içindeki iş mantıklarını parçalayarak sonuçlarını test etmek is
 
 Kullanılması çok tercih edilenlere bakalım.
 
-```
+```java
  assertEquals()  		--> karşılaştırılan nesne örneğini içlerindeki equals() metodu ile test eder.
  assertSame()  			--> karşılaştırılan nesne örneğini içlerindeki equals() metodu kullanmasan test eder.
  assertNull()  			--> parantez içindeki değerin null olmasını bekler
@@ -100,7 +100,7 @@ Bu durumda aynı metodun farklı veri parametresi alan hallerini yazmak yerine �
 
 - https://github.com/Pragmatists/JUnitParams 
 
-```
+```java
 @Parameters("a","b","c") yazımı ile  metoda gönderilerek parametreleri tek noktadan yönetebiliyoruz.
 
 ```
@@ -113,7 +113,7 @@ Bir işlem içerisinden istediğimiz bir istisna (exception) durumunu oluşturup
 
 - https://github.com/junit-team/junit4/wiki/Exception-testing#expectedexception-rule
 
-```
+```java
 @Rule
 public ExpectedException thrown = ExpectedException.none();
 
@@ -134,7 +134,7 @@ Yazdığımız testlerin tek noktadan çalıştırılmaya başlamasını sağlay
 
 **@Suite** ifadesi ile birden fazla test sınıfını koşturabiliriz.
     
-```
+```java
   @RunWith(Suite.class)
   @SuiteClasses({ UnitTest.class, SeviceTest.class })
   public class AllTestsForProduct {
@@ -144,7 +144,7 @@ Yazdığımız testlerin tek noktadan çalıştırılmaya başlamasını sağlay
 **@Ignore** ifadesi yazılmış fakat çalıştırılmasını istemediğimiz test metotlarının işaretlenerek çalışmasını engeller.
 Devre dışı bırakır
 
-```
+```java
   @Ignore(value=" Bu metot örnek olsun diye çalıştırılmadı.")
   @Test
   public void testPrintMessage() {
@@ -170,7 +170,7 @@ Elimizdeki liste üzerinde işlemler yaparken,
 
 Assert.assertThat() ile JUnit ten , CoreMatchers.hasItem() ile Hamcrest ten yararlanabiliriz.
 
-```
+```java
 @Test
 public void testNumber() {
   List<Integer> list = new ArrayList<>();
@@ -199,7 +199,7 @@ public void testNumberString() {
 
 Kullanılması çok tercih edilen metotlara bakalım
 
-```
+```java
  equalTo()     --  Eşitlik kontrolü
  containsString() -- Beklenen değer içinde istenilen değer var mı kontrolü.
  anyOf()       -- or durumudur. içindeki parametrelerin herhangi birinin doğruluğunda doğru sonuç verir.
