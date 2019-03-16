@@ -383,11 +383,68 @@ Mockito kütüphanesini inceyelerek devam edeceğiz
 Test yazarken bir işlemin çalışabildiğini kontrol etme ihtiyacımız olduğunda faydalanarabiliriz.
 
 Temel mantık , 
+
 yazılımdan yapmasını beklediğimiz işlemi karşılayan sahte veri veya işlem üretip,
 yazılımdan yapmasını beklediğimiz işlemi çalıştırıp sahte veri veya işlem ile karşılaştırmaktır.
 
-Bu durum bizim yazılımımızın hangi işlemleri kapsadığını açıkça ortaya koymaktadır.
+Bu durum yazılımın hangi işlemleri kapsadığını açıkça ortaya koymaktadır.
 
+### Mockito Verification
+
+Örneğin
+
+Mockito kütüphanesi kullanarak listemizi sahte nesne olacak şekilde  oluşturuyoruz.
+Sahte nesneye özellikler kazandırmak için listeye elemanlar ekleyip daha sonra boyutunu kontrol ediyoruz.
+
+Yaptığımız işlemleri doğrulama ihtiyacı şu aşamada bize yardımcı oluyor.
+Gerçekte bu elemanları ekleyebilecek miydim?
+
+Listenin bir metodunu kullandık.Burada hazır metot kullandık fakat kendi yazdığımız bir metotta bu yöntemle test edebiliriz.
+Son satırda listemize 30 sayısını ekleyip eklemediğimizi kontrol ediyoruz. Bu işlem yapılmadığı için bu satır bize
+uyarı vererek bu işlemin daha önceki satırlarda yapılmadığının garantisini sağlamış oluyor.
+
+
+
+```java
+
+	@Test 
+	public void testMockitoMethod () {
+		// mocking
+		List<Integer> list = Mockito.mock(ArrayList.class);
+		
+		list.add(10);
+		list.add(20);
+		list.size();
+	
+		// verification
+		Mockito.verify(list).size();  
+		Mockito.verify(list).add(10);
+		Mockito.verify(list).add(20);
+		Mockito.verify(list).add(30); // error 
+		
+	}
+```
+
+
+### Mockito Stubbing
+
+Test verilerini beklediğimiz aksiyonu yazarken belirleyebiliriz. Peki buna neden ihtiyaç var ?
+
+**Service** isimli interface ve içinde gövdesi olmayan bir metot var. 
+**ServiceImpl** isimli sınıf ise **Service** interface implement ettiğinden 
+içindeki metot kullanılabilr durumdadır.
+
+Metot çağrıldığında beklediğimiz durumu kontrol etmek, test etmek istiyoruz.
+Fakat elimizde o metodun runtime da çalıştığında üreteceği çıktısı yok.
+Test edebilmek için metodun bulunduğu sınıfın aynısından ismi stub ile biten **ServiceImplStub** bir sınıf oluşturup
+**Service** interface implement ediyoruz. İçleri boş haldeki metotlardan dönülmesini istediğimiz değerleri
+stub sınıfımızdaki metotlara yazıyoruz. 
+
+**Service** interface içinde bir değişiklik olduğunda otomatik olarak **ServiceImplStub** sınıfı etkilendiğinden
+istediğimiz gibi ekleme çıkarma yapmayıp, test verisini oluşturup test metotlarını yazarak 
+eklemek istediğimiz metodu  **Service** interface e eklemiş oluyoruz.
+
+Her zaman önce test yazma işlemini yapmaya özen gösteriyoruz. Daha sonra test sınıflarımız içinde sadece bu stub isimli sınıfımızdaki metotlardan dönen durumları kontrol ederek test yazmaya çalışıyoruz. Bu çok zahmetli ve uzun olabiliyor.
 
 _yay_
 [back](https://microservice-base.github.io/)
