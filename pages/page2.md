@@ -446,5 +446,51 @@ eklemek istediğimiz metodu  **Service** interface e eklemiş oluyoruz.
 
 Her zaman önce test yazma işlemini yapmaya özen gösteriyoruz. Daha sonra test sınıflarımız içinde sadece bu stub isimli sınıfımızdaki metotlardan dönen durumları kontrol ederek test yazmaya çalışıyoruz. Bu çok zahmetli ve uzun olabiliyor.
 
+Bu durumun yerine  
+Mockito veya benzer kütüphaneler kullanarak  **given .. when .. thenReturn** gibi ifadeler yardımıyla
+dinamik olarak istediğimiz kadar tekrar edebilen yapılar kurabiliyoruz.
+
+Konu olarak yeri gelmişken Martin Fowler şöyle bir makale yayınlamış.
+
+- https://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs
+
+Şöyle bir ifadesi var.
+
+```
+There is a difference in that the stub uses state verification while the mock uses behavior verification.
+```
+
+Bu konuda aklım biraz karıştı. Test tarafında bilgili arkadaşlar görüşlerini paylaşırlarsa sevinirim.
+
+
+Örneğimize geçelim
+Burada listeye bir eleman eklemek yerine stub oluşturarak beklenen durumu oluşturdum.
+Aslında bunu kural yazmak gibi düşünebiliriz.
+
+Listenin ilk elemanı çağrıldığında 30 değeri dönecek şeklinde bir kural yazdım.
+Daha sonra kurala uyan bir işlem yaptım ve bunu konsola yazdırdım. 
+Test işlemini bu şekilde doğrulayabildik.
+
+Bu şekilde test yapmanın bize sağladığı kolaylık mock ile belirlemiş objelerin içerisindeki değerlerin ne olduğu ile ilgilenmiyoruz. Sadece beklediğimizi kısımdaki kuralı yazarak test etmeyi amaçlamış oluyoruz.
+
+```java
+	
+	@Test 
+	public void testMethodStubbing () {
+		List<Integer> list = Mockito.mock(ArrayList.class);
+
+		list.add(30);
+
+		// stubbing
+		Mockito.when(list.get(0)).thenReturn(30);
+			
+		System.out.println(list.get(0));
+		
+	}
+
+
+```
+
+
 _yay_
 [back](https://microservice-base.github.io/)
