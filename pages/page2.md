@@ -183,18 +183,18 @@ public void testNumber() {
   Assert.assertThat(list, CoreMatchers.hasItem(2));
 }
 
-	@Test
-	public void testNumberString() {
-		List<String> list = new ArrayList<>();
-		list.add("bir");
-		list.add("iki");
+@Test
+public void testNumberString() {
+	List<String> list = new ArrayList<>();
+	list.add("bir");
+	list.add("iki");
 
-		list.forEach(item -> System.out.println(item));
-		
-		Assert.assertThat(list.get(0), CoreMatchers.startsWith("b"));
-		Assert.assertThat(list.get(1), CoreMatchers.is("iki"));
-    Assert.assertThat(list.get(1), CoreMatchers.containsString("k"));
-	}
+	list.forEach(item -> System.out.println(item));
+
+	Assert.assertThat(list.get(0), CoreMatchers.startsWith("b"));
+	Assert.assertThat(list.get(1), CoreMatchers.is("iki"));
+	Assert.assertThat(list.get(1), CoreMatchers.containsString("k"));
+}
 
 ```
 
