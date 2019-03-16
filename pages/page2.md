@@ -367,13 +367,26 @@ Bu yüzden nasıl bağımlı olduğu sınıflarla beraber çalışıyorsa, test 
 
 Java yazarken kullanabileceğimiz mock kütüphanelerine bir kaç örnek verelim
 
-- Mockito	
+- Mockito https://site.mockito.org
  
-- EasyMock 
+- EasyMock  http://easymock.org
  
-- PowerMock 
+- PowerMock  https://github.com/powermock/powermock
  
-- Jmock  
+- Jmock  http://jmock.org
+
+
+Mockito kütüphanesini inceyelerek devam edeceğiz
+
+# Mockito
+
+Test yazarken bir işlemin çalışabildiğini kontrol etme ihtiyacımız olduğunda faydalanarabiliriz.
+
+Temel mantık , 
+yazılımdan yapmasını beklediğimiz işlemi karşılayan sahte veri veya işlem üretip,
+yazılımdan yapmasını beklediğimiz işlemi çalıştırıp sahte veri veya işlem ile karşılaştırmaktır.
+
+Bu durum bizim yazılımımızın hangi işlemleri kapsadığını açıkça ortaya koymaktadır.
 
 
 _yay_
