@@ -338,7 +338,7 @@ Projelerimizdeki sınıflarımızın özellikleri kontrol edebilmemizi sağlayan
 
 ```
 
-``` java
+```
 hasDeclaredFields()     --> metodu ile sınıf içindeki alanlarını tek tek kontrol edebiliriz.
 
 hasOnlyDeclaredFields() --> metodu ile sınıf içindeki tüm alanları tek metot ile kontrol edebiliriz.
@@ -354,14 +354,16 @@ Assertions.tuple()    -->  metodu ile sınıf içindeki alanlara karşılık gel
 
 # Mock 
 
-	Mock   taklit, sahte  anlamına gelmektedir. Testlerimizi yazarken aynı zamanda
-	gerçek veriler ile test etmek isteyebiliriz. Fakat elimizde her zaman test edebileceğimiz
-	veri olmayabilir. Gerçek verileri taklit eden veriler üreterek testlerimizin doğruluğunu
-	kontrol edebiliriz. JUnit testlerinde mock nesneler sıkça kullanılır.
-	Mock nesneler kullanılarak test edilen Java sınıfının bağımlılıkları test esnasında
-	varmış gibi taklit edilir. Test edilen Java sınıfı kullanılan Mock ve gerçek sınıflar arasında
-	ayrım yapamaz. Bu yüzden nasıl bağımlı olduğu sınıflarla beraber çalışıyorsa, test esnasında
-	da bağımlılıklarını temsil eden mock nesneler ile işlem yapılır.
+Mock taklit, sahte  anlamına gelmektedir. 
+
+Testlerimizi yazarken aynı zamanda gerçek veriler ile test etmek isteyebiliriz. 
+Fakat elimizde her zaman test edebileceğimiz veri olmayabilir. 
+Gerçek verileri taklit eden veriler üreterek testlerimizin doğruluğunu kontrol edebiliriz. 
+
+JUnit testlerinde mock nesneler sıkça kullanılır. 
+Mock nesneler kullanılarak test edilen Java sınıfının bağımlılıkları test esnasında varmış gibi taklit edilir. 
+Test edilen Java sınıfı kullanılan Mock ve gerçek sınıflar arasında ayrım yapamaz. 
+Bu yüzden nasıl bağımlı olduğu sınıflarla beraber çalışıyorsa, test esnasında da bağımlılıklarını temsil eden mock nesneler ile işlem yapılır.
 
 
 _yay_
