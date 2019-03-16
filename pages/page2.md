@@ -365,6 +365,16 @@ Mock nesneler kullanılarak test edilen Java sınıfının bağımlılıkları t
 Test edilen Java sınıfı kullanılan Mock ve gerçek sınıflar arasında ayrım yapamaz. 
 Bu yüzden nasıl bağımlı olduğu sınıflarla beraber çalışıyorsa, test esnasında da bağımlılıklarını temsil eden mock nesneler ile işlem yapılır.
 
+Java yazarken kullanabileceğimiz mock kütüphanelerine bir kaç örnek verelim
+
+- Mockito	
+ 
+- EasyMock 
+ 
+- PowerMock 
+ 
+- Jmock  
+
 
 _yay_
 [back](https://microservice-base.github.io/)
