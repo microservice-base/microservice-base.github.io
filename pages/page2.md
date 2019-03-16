@@ -518,6 +518,8 @@ işte bu işlemden sonra liste üzerinde farklı bir işlem bu metot kapsamında
 verifyNoMoreInteractions kullanarak bu durumu oluşturabiliriz.
 Eğer yorum işareti kaldırılıp listeye ikinci bir eleman eklenirse bu test hata verecektir çünkü yeni bir işlem yapılamasın demiştik.
 
+Kod içerisinde given bölümü
+
 
 ```java
 	@Test 
@@ -556,6 +558,36 @@ yapan bir kod yazdığımızda then kısmındaki işlem,dönüş değeri olarak 
 ve daha sonra mock objelerimizi test ederek test metodunun amacını gerçekleştirmiş oluruz
 
 
+Given bölümünde dönüş değeri olarak Güzel Kitap bekleniyor.
 
+Test çalıştırıldığında
+
+When bölümünde resul olarak Güzel Kitap dönecektir.
+
+Then bölümünde karşılaştırma işlemi yapılarak işlem tamamlanacaktır.
+
+```java
+	public class ProductServiceImpl {
+		public String getProductByCode(String string) {
+			return "Güzel Kitap";
+		}
+	}
+	
+	@Test
+	public void testBDDStyle() {
+
+		ProductServiceImpl productService = Mockito.mock(ProductServiceImpl.class);
+
+		// given 
+		BDDMockito.given(productService.getProductByCode(Mockito.eq("kitap"))).willReturn("Güzel Kitap");
+
+		// when
+		String result =  productService.getProductByCode("kitap");
+		
+		// then
+		Assertions.assertThat(result).isEqualTo("Güzel Kitap");
+	}	
+	
+```
 _yay_
 [back](https://microservice-base.github.io/)
