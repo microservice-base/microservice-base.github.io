@@ -200,17 +200,90 @@ public void testNumberString() {
 Kullanılması çok tercih edilen metotlara bakalım
 
 ```java
- equalTo()     --  Eşitlik kontrolü
- containsString() -- Beklenen değer içinde istenilen değer var mı kontrolü.
- anyOf()       -- or durumudur. içindeki parametrelerin herhangi birinin doğruluğunda doğru sonuç verir.
- allOf()       -- and durumur. içindeki parameterlerinin hepsinin doğru olmasını bekler.
- either().or() -- bu veya bu karşılaştırması için kullanılır.
- hasItem()     -- liste karşılaştırılmalarında içerisinde bir elemanın olup olmadığı kontrolünü yapar
+ equalTo()     -->  Eşitlik kontrolü
+ containsString() --> Beklenen değer içinde istenilen değer var mı kontrolü.
+ anyOf()       --> or durumudur. içindeki parametrelerin herhangi birinin doğruluğunda doğru sonuç verir.
+ allOf()       --> and durumur. içindeki parameterlerinin hepsinin doğru olmasını bekler.
+ either().or() --> bu veya bu karşılaştırması için kullanılır.
+ hasItem()     --> liste karşılaştırılmalarında içerisinde bir elemanın olup olmadığı kontrolünü yapar
 
 ```
 
 
-# AssertJ
+# AssertJ
+
+Test metotlarına yardımcı olacak kütüphanelerden biridir. 
+Metotlar içindeki beklenen değerin üzerine kontroller ekleyebilmemizi sağlar.
+
+Örneğin 
+
+Bir cümle üzerindeki bazı kontrolleri görelim.
+
+```java
+
+	@Test
+	public void testSampleValue() { 
+		Assertions.assertThat("sample value")
+		.startsWith("sa")
+		.endsWith("e")
+		.containsOnlyOnce("v");
+	}
+```
+
+
+Bir başka güzel yanı ise istediğimiz durumları metotlar haline getirip tekrar tekrar kullanabiliriz.
+
+Örneğin
+
+Elimizdeki listenin tek sayıları olmasını bekleyen bir metot içeriyor. 
+
+Eğer liste içerisinde çift olan bir sayı var ise uyarı veriyoruz.
+
+
+```java
+
+ @Test
+	public void testEvenOddNumbers() {
+		
+		List<Integer> sayilar1 = new  ArrayList<>(Arrays.asList(1,3,5));
+		List<Integer> sayilar2 = new  ArrayList<>(Arrays.asList(1,3,4));
+		
+		Assertions.assertThat(sayilar1)
+		.describedAs("UYARI - Hata olustugunda bu uyariyi veriyorum - Cift sayi var")
+		.have(oddNumber());		
+		
+		Assertions.assertThat(sayilar1)
+		.describedAs("UYARI - Hata olustugunda bu uyariyi veriyorum - Liste içinde 3 tane tek sayı bulunamadı")
+		.haveExactly(3,oddNumber());
+		
+
+		Assertions.assertThat(sayilar2)
+		.describedAs("UYARI - Hata olustugunda bu uyariyi veriyorum - Cift sayi var")
+		.have(oddNumber());		
+		
+		Assertions.assertThat(sayilar2)
+		.describedAs("UYARI - Hata olustugunda bu uyariyi veriyorum - Liste içinde 3 tane tek sayı bulunamadı")
+		.haveExactly(3,oddNumber());
+		
+	}
+	
+	private Condition<? super Integer> oddNumber() {
+		return new Condition<Integer>() {
+			@Override
+			public boolean matches(Integer value) {
+				if(value % 2 == 1 ) {
+					System.out.println("tek sayı");
+					return true;
+				}
+				return false;
+			}
+		};
+	}
+
+```
+
+Listeler icin beklenen değerleri kontrol edebiliriz.
+
 
 _yay_
 [back](https://microservice-base.github.io/)
