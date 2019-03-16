@@ -282,8 +282,74 @@ Eğer liste içerisinde çift olan bir sayı var ise uyarı veriyoruz.
 
 ```
 
-Listeler icin beklenen değerleri kontrol edebiliriz.
+Projelerimizdeki sınıflarımızın özellikleri kontrol edebilmemizi sağlayan metotları vardır.
 
+
+``` java
+	public class Product {
+	    	private String name;
+	    	private int type;
+	    
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public int getType() {
+			return type;
+		}
+		public void setType(int type) {
+			this.type = type;
+		}
+	}
+	
+	@Test
+	public void testListValue() {
+		
+		 
+		Product p1 = new Product();
+		p1.setType(1);
+		p1.setName("product1");
+		
+		Product p2 = new Product();
+		p2.setType(2);
+		p2.setName("product2");
+
+		List<Product> products = new ArrayList<>();
+		products.add(p1);
+		products.add(p2);
+
+
+		Assertions.assertThat(Product.class).hasDeclaredFields("name");
+		Assertions.assertThat(Product.class).hasDeclaredFields("type");
+		
+		Assertions.assertThat(Product.class).hasOnlyDeclaredFields("name","type");
+		
+
+		Assertions.assertThat(products)
+		.extracting("name", "type")
+		.contains(
+				Assertions.tuple("product1",1),
+				Assertions.tuple("product2",2)
+		);
+		
+	}
+
+```
+
+``` java
+hasDeclaredFields()     --> metodu ile sınıf içindeki alanlarını tek tek kontrol edebiliriz.
+
+hasOnlyDeclaredFields() --> metodu ile sınıf içindeki tüm alanları tek metot ile kontrol edebiliriz.
+			Bu metot tüm alanların eklenmesini beklemektedir. Sınıfa yeni bir alan eklendiğinde,metoda da 
+			eklenmesini bekleyeceğinden  hata vererek eksik test yazılmasının önüne geçer :)
+
+
+Assertions.tuple()    -->  metodu ile sınıf içindeki alanlara karşılık gelmesini istediğimiz değerleri
+			tek tek kontrol edebilmemizi sağlıyor
+
+```
 
 _yay_
 [back](https://microservice-base.github.io/)
