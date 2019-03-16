@@ -351,6 +351,10 @@ Assertions.tuple()    -->  metodu ile sınıf içindeki alanlara karşılık gel
 
 ```
 
+**AssertJ** ye ait özellikleri **Assertions** sınıfı ile kullanabiliyoruz.
+
+**Behavior Driven Development** yaklaşımı ile yazmak istersek **BDDAssertions** isimli sınıfı kullanabiliriz.
+
 
 # Mock 
 
@@ -454,10 +458,10 @@ Bu şekilde test yapmanın bize sağladığı kolaylık mock ile belirlemiş obj
 		
 	}
 
-
+// https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#stubbing
 ```
 
-### Mockito Verification
+### Mockito Verification
 
 Örneğin
 
@@ -492,6 +496,66 @@ uyarı vererek bu işlemin daha önceki satırlarda yapılmadığının garantis
 		
 	}
 ```
+### Mockito Order Verification
+
+Test etmek istediğimiz durumların sırasıyla çalışmasını isteyebiliriz. Sıralı yapılan işlemelerin
+kontrolü için bu durumu kullanabiliriz.
+
+```java
+InOrder inOrder = inOrder(firstMock, secondMock);
+inOrder.verify(firstMock).add("was called first");
+inOrder.verify(secondMock).add("was called second");
+
+// https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#in_order_verification 
+```
+
+### Mockito VerifyNoMoreIteraction
+
+Test ettiğimiz durumdan sonra bu metot içerisinde başka duruma izin vermek istemediğimizi belirtiyoruz.
+
+Mock işlemi uygulanan listeye bir eleman eklenmiş ve bu eleman verify edilmiş durumda
+işte bu işlemden sonra liste üzerinde farklı bir işlem bu metot kapsamında yapılamasın istiyorsak
+verifyNoMoreInteractions kullanarak bu durumu oluşturabiliriz.
+Eğer yorum işareti kaldırılıp listeye ikinci bir eleman eklenirse bu test hata verecektir çünkü yeni bir işlem yapılamasın demiştik.
+
+
+```java
+	@Test 
+	public void testMethodNoMoreElement () {
+		List<String> mockedList = Mockito.mock(ArrayList.class);
+
+		 mockedList.add("one");
+		//mockedList.add("two");
+
+		 Mockito.verify(mockedList).add("one");
+
+		 Mockito.verifyNoMoreInteractions(mockedList);
+	}
+// https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#finding_redundant_invocations
+
+```
+
+### Mockito VerifyZeroIteraction
+
+Belirsemde belirtmesemde bu mock nesnesi bu metotta hiç bir zaman çağrılamasın.
+
+```java
+Mockito.verifyZeroIteractions(resultList);
+
+https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#never_verification
+
+```
+
+### Mockito Behavior
+
+Basitçe bir örnek ile konuyu özetleyelim.
+Testlerimizi davranış belirterek yazabiliriz.
+given.. when .. then.. şeklinde yazılan bir durum belirtiyoruz. Bunu Mockito ile yaptığımız için
+alt satırlarda when kısmına yazılan davranısı sergilediğimizde yanı bunu
+yapan bir kod yazdığımızda then kısmındaki işlem,dönüş değeri olarak sağlanır.
+ve daha sonra mock objelerimizi test ederek test metodunun amacını gerçekleştirmiş oluruz
+
+
 
 _yay_
 [back](https://microservice-base.github.io/)
