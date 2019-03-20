@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Test Yazmak
+# Java Dilinde Test Yazmak
 
 
 Test yazmak yazılımlarımızdaki en küçük işlem parçalarının beklenen yetenekleri sergileyip sergilemediğini kontrol etmemizi sağlayan yöntemdir.
