@@ -5,7 +5,7 @@
 
 [Link to page1](././pages/page1.md).
 
-[Test Yazmak](././pages/page2.md).
+[Java Dilinde Test Yazmak](././pages/page2.md).
 
 
 Test
