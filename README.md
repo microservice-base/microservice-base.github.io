@@ -7,6 +7,8 @@
 
 [Java Dilinde Test Yazmak](././pages/page2.md).
 
+[Go Dilinde Test Yazmak](././pages/page3.md)
+
 
 Test
 
