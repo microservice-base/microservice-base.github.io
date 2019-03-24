@@ -40,7 +40,27 @@ kayıt işlemleri basitçe gerçekleştirdik. DAO yu test etmek için entitiyman
 
 Sonraki adımlarda kendi DAO sınıfımızın metotları ile bu işlemlerin yapılabilirliğini kontrol ettik.
 
-DAO sınıfımıza ait metotların sonuçlarını kontrol ederek testimizi çalıştırmış olduk.
+DAO sınıfımıza ait metotların sonuçlarını kontrol ederek testimizi çalıştırmış oluyoruz
+
+
+Servis Katmanı
+
+DAO katmanı işlemlerini kullanabilmek için çağırdığımızı metotların bulunduğu katmandır.
+
+- https://github.com/microservice-base/shop/blob/master/shop/src/test/java/test/com/shop/product/service/impl/ProductBusinessServiceImplTest.java
+
+Sınıfımızın başında Spring Framework anotasyonu olan **@SpringBootTest** mevcuttur.
+
+Bu test dosyası çalıştırıldığında ;
+
+DAO sınıfımızdaki metotlar bizim sahte(mock) objelerimiz olacak şekilde kullanıyoruz.
+
+Servis sınıfımızın metotlarını çağırıp test ediyoruz.
+
+Servis sınıfımızın metotlarının sonçlarını beklediğimiz sonuçlar ile karşılaştırıp testimizi çalıştırmış oluyoruz.
+
+
+
 
 _yay_
 [back](https://microservice-base.github.io/)
