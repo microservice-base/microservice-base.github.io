@@ -23,7 +23,8 @@ Uygulamamızın katmanları bazı katmanları mevcuttur.
 - Servis Katmanı
 - DAO katmanı
 
-      DAO Katmanı 
+
+DAO Katmanı 
 
 Veritabanına ulaşıp  kayıt ekleme, kayıt silme, kayıt bulma gibi işlemlerin yapılmasını sağlayan katmandır.
 
@@ -33,7 +34,7 @@ Veritabanına ulaşıp  kayıt ekleme, kayıt silme, kayıt bulma gibi işlemler
 Bu test dosyasını çalıştırdığımız anda;
 
 Spring Framework anotasyonu olan TestEntityManager, ile Java dilinin Java Persistence Api sini kullanarak 
-kayıt işlemleri basitçe gerçekleştirdik.
+kayıt işlemleri basitçe gerçekleştirdik. DAO yu test etmek için entitiymanager ile sahte kayıtlar(mock) oluşturmuş olduk.
 
 Sonraki adımlarda kendi DAO sınıfımızın metotları ile bu işlemlerin yapılabilirliğini kontrol ettik.
 
