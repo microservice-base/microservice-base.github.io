@@ -31,11 +31,11 @@ Veritabanına ulaşıp  kayıt ekleme, kayıt silme, kayıt bulma gibi işlemler
 
 - https://github.com/microservice-base/shop/blob/master/shop/src/test/java/test/com/shop/product/dao/ProductDAOTest.java
 
-Sınıfımızın başında veritabanı işlemlerini yapabilmemiz için Spring Framework anotasyonu olan @DataJpaTest mevcuttur.
+Sınıfımızın başında veritabanı işlemlerini yapabilmemiz için Spring Framework anotasyonu olan **@DataJpaTest** mevcuttur.
 
 Bu test dosyasını çalıştırdığımızda ;
 
-Spring Framework anotasyonu olan @TestEntityManager, ile Java dilinin Java Persistence Api sini kullanarak 
+Spring Framework anotasyonu olan **@TestEntityManager**, ile Java dilinin Java Persistence Api sini kullanarak 
 kayıt işlemleri basitçe gerçekleştirdik. DAO yu test etmek için entitiymanager ile sahte kayıtlar(mock) oluşturmuş olduk.
 
 Sonraki adımlarda kendi DAO sınıfımızın metotları ile bu işlemlerin yapılabilirliğini kontrol ettik.
