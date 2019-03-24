@@ -5,7 +5,9 @@
 
 [Link to page1](././pages/page1.md).
 
-[Java Dilinde Test Yazmak](././pages/page2.md).
+[Java Dilinde Test Yazmak](././pages/page2.md)
+
+[Shop Projesi](././pages/page4.md)
 
 [Go Dilinde Test Yazmak](././pages/page3.md)
 
