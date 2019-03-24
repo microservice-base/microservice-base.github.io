@@ -30,10 +30,14 @@ Veritabanına ulaşıp  kayıt ekleme, kayıt silme, kayıt bulma gibi işlemler
 
 - https://github.com/microservice-base/shop/blob/master/shop/src/test/java/test/com/shop/product/dao/ProductDAOTest.java
 
+Bu test dosyasını çalıştırdığımız anda;
+
 Spring Framework anotasyonu olan TestEntityManager, ile Java dilinin Java Persistence Api sini kullanarak 
 kayıt işlemleri basitçe gerçekleştirdik.
 
-Sonraki adımlarda kendi DAO sınıfımız ile bu işlemlerin yapılabilirliğini kontrol ettik.
+Sonraki adımlarda kendi DAO sınıfımızın metotları ile bu işlemlerin yapılabilirliğini kontrol ettik.
+
+DAO sınıfımıza ait metotların sonuçlarını kontrol ederek testimizi çalıştırmış olduk.
 
 _yay_
 [back](https://microservice-base.github.io/)
