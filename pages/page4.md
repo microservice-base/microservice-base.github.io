@@ -24,7 +24,7 @@ Uygulamamızın katmanları bazı katmanları mevcuttur.
 - DAO katmanı
 
 
-DAO Katmanı 
+## DAO Katmanı 
 
 Veritabanına ulaşıp  kayıt ekleme, kayıt silme, kayıt bulma gibi işlemlerin yapılmasını sağlayan katmandır.
 
@@ -43,7 +43,7 @@ Sonraki adımlarda kendi DAO sınıfımızın metotları ile bu işlemlerin yap�
 DAO sınıfımıza ait metotların sonuçlarını kontrol ederek testimizi çalıştırmış oluyoruz
 
 
-Servis Katmanı
+## Servis Katmanı
 
 DAO katmanı işlemlerini kullanabilmek için çağırdığımızı metotların bulunduğu katmandır.
 
@@ -58,6 +58,8 @@ DAO sınıfımızdaki metotlar bizim sahte(mock) objelerimiz olacak şekilde kul
 Servis sınıfımızın metotlarını çağırıp test ediyoruz.
 
 Servis sınıfımızın metotlarının sonçlarını beklediğimiz sonuçlar ile karşılaştırıp testimizi çalıştırmış oluyoruz.
+
+## Api Katmanı
 
 
 
