@@ -6,13 +6,15 @@ layout: default
 - https://github.com/microservice-base/shop
 
 
-Ürün kayıtlarının bilgilerine ulaşabileceğimiz projedir.
+Ürün kayıt bilgilerine ulaşabileceğimiz projedir.
 
 Kullanılan Teknolojiler
 - Java 
 - Spring Boot (Spring Framework)
 - Gradle
 - Mockito
+
+
 
 
 _yay_
