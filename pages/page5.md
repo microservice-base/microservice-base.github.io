@@ -21,3 +21,15 @@ dependencies
 }
 ```
 
+
+- https://github.com/microservice-base/shop/blob/master/shop/src/main/java/com/shop/config/SwaggerConfig.java
+
+Buradaki sınıf ile web servislerimizin bulunduğu sınıfı ( ProductApi ) belirtiyoruz.
+
+Projemizi çalıştırdığımızda 
+
+- http://localhost:8001/shop/swagger-ui.html
+
+- /swagger-resources
+- /swagger-resources/configuration/security
+- /swagger-resources/configuration/ui
