@@ -9,7 +9,7 @@
 
 [Shop Projesi](././pages/page4.md)
 
-[Shop - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
+[Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
 
 [Go Dilinde Test Yazmak](././pages/page3.md)
 
