@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Shop - Java Projesine Swagger Entegrasyonu
+# Shop Projesi - Java Projesine Swagger Entegrasyonu
 
 Shop projesine ait dışarı açılan servisleri güzel bir arayüz ile dışarı açmak istiyoruz.
 
