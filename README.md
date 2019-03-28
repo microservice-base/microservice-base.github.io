@@ -13,6 +13,8 @@
 
 [Go Dilinde Test Yazmak](././pages/page3.md)
 
+[Name of Link]({{ site.baseurl }}{% post_url page3.md %})
+
 
 Test
 
