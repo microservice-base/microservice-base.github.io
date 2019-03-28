@@ -12,7 +12,8 @@ Shop projemiz bir java projesi olduğu için **springfox** projesi bizim işimiz
 
 Projemiz gradle projesi olduğu için bu projeyi bir kütüphane olarak projemize eklemek için yapacağımız değişiklikler.
 
-	build.gradle
+
+build.gradle
 
 ```groovy
 dependencies
