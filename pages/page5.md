@@ -23,7 +23,8 @@ dependencies
 ```
 
 
-- https://github.com/microservice-base/shop/blob/master/shop/src/main/java/com/shop/config/SwaggerConfig.java
+[https://github.com/microservice-base/shop/blob/master/shop/src/main/java/com/shop/config/SwaggerConfig.java](https://github.com/microservice-base/shop/blob/master/shop/src/main/java/com/shop/config/SwaggerConfig.java)
+
 
 Buradaki sınıf ile web servislerimizin bulunduğu sınıfı ( ProductApi ) belirtiyoruz.
 
