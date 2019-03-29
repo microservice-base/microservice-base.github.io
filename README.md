@@ -13,11 +13,6 @@
 
 [Go Dilinde Test Yazmak](././pages/page3.md)
 
-[Name of Link]({{ site.baseurl }}{% post_url page3.md %})
-
-
-Test
-
 
 You can use the [editor on GitHub](https://github.com/microservice-base/microservice-base.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
