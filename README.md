@@ -2,6 +2,8 @@
 
 Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışmasını amaçlar.
 
+Bu kuralları takip ederek yazılımı gerçekleyeceğim
+https://12factor.net/tr/
 
 
 [Link to page1](././pages/page1.md).
