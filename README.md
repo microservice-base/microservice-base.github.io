@@ -5,8 +5,7 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 Bu kuralları takip ederek yazılımı gerçekleyeceğim
 https://12factor.net/tr/
 
-- api gateaway 
-  kong or tyk 
+- api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
   
 -- free ssl
 https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
