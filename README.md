@@ -23,6 +23,7 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 --
 
 
+-- Düzenlenecektir :)
 [Link to page1](././pages/page1.md).
 
     api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
