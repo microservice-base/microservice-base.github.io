@@ -5,7 +5,9 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 Bu kuralları takip ederek yazılımı gerçekleyeceğim
 https://12factor.net/tr/
 
-- api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
+    api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
+    
+    https://jwt.io/
   
 -- free ssl
 https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
