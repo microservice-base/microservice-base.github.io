@@ -36,6 +36,13 @@ https://istio.io/ service mesh (projedeki uygulamalarda kim kimi çağırıyor )
 --    
 https://jwt.io/ Json web token
 -- 
+
+Weave Net  https://www.weave.works/blog/weave-net-kubernetes-integration/ k8s te network üzerinden konuşmak için
+--
+veya 
+--
+https://www.projectcalico.org/
+--
 free ssl  --  https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
 --
 
