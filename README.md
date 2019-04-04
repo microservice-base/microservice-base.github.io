@@ -29,13 +29,14 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
     swagger i yaml ile oluşturmayı yap
     https://github.com/zalando/intellij-swagger
 
-    api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
-    
-    https://jwt.io/
- 
-        free ssl
-    https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
-
+https://github.com/TykTechnologies/tyk api Gateway( apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kurallar yazabiliriz )
+--    
+https://istio.io/ service mesh (projedeki uygulamalarda kim kimi çağırıyor )
+--    
+https://jwt.io/ Json web token
+-- 
+free ssl  --  https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
+--
 
 
 # Welcome to GitHub Pages
