@@ -26,6 +26,9 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 -- Düzenlenecektir :)
 [Link to page1](././pages/page1.md).
 
+    swagger i yaml ile oluşturmayı yap
+    https://github.com/zalando/intellij-swagger
+
     api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
     
     https://jwt.io/
