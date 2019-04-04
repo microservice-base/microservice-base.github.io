@@ -7,17 +7,19 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 
 
 [Java Dilinde Test Yazmak](././pages/page2.md)
+--
 
 [Shop Projesi](././pages/page4.md)
+--
 
 [Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
+--
 
 [Go Dilinde Test Yazmak](././pages/page3.md)
-
+--
 
 
 [Link to page1](././pages/page1.md).
----- 
 
     api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
     
