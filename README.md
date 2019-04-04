@@ -2,7 +2,11 @@
 
 Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışmasını amaçlar.
 
-    Proje https://12factor.net/tr kurallarını gerçeklemeye çalışıyor
+
+    
+   [https://12factor.net/tr](https://12factor.net/tr)
+   --
+    Proje 12factor kurallarını gerçeklemeye çalışarak geliştirilmektedir.
 
 
 
