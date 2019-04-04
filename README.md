@@ -2,18 +2,9 @@
 
 Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışmasını amaçlar.
 
-Bu kuralları takip ederek yazılımı gerçekleyeceğim
-https://12factor.net/tr/
-
-    api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
-    
-    https://jwt.io/
-  
--- free ssl
-https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
+    Proje https://12factor.net/tr kurallarını gerçeklemeye çalışıyor
 
 
-[Link to page1](././pages/page1.md).
 
 [Java Dilinde Test Yazmak](././pages/page2.md)
 
@@ -22,6 +13,19 @@ https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-cert
 [Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
 
 [Go Dilinde Test Yazmak](././pages/page3.md)
+
+
+
+[Link to page1](././pages/page1.md).
+---- 
+
+    api Gateway(  https://github.com/TykTechnologies/tyk ile  apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kuralllar yazabiliriz )
+    
+    https://jwt.io/
+ 
+        free ssl
+    https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
+
 
 
 # Welcome to GitHub Pages
