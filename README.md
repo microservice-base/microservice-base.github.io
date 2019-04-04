@@ -5,6 +5,12 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 Bu kuralları takip ederek yazılımı gerçekleyeceğim
 https://12factor.net/tr/
 
+- api gateaway 
+  kong or tyk 
+  
+-- free ssl
+https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
+
 
 [Link to page1](././pages/page1.md).
 
