@@ -23,7 +23,8 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 --
 
 
--- Düzenlenecektir :)
+Alttakiler Düzenlenecektir :)
+--
 [Link to page1](././pages/page1.md).
 
     swagger i yaml ile oluşturmayı yap
