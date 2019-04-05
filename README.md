@@ -27,6 +27,8 @@ Alttakiler Düzenlenecektir :)
 --
 [Link to page1](././pages/page1.md).
 
+go projesine ekle--> https://medium.freecodecamp.org/an-intro-to-dep-how-to-manage-your-golang-project-dependencies-7b07d84e7ba5
+
     swagger i yaml ile oluşturmayı yap
     https://github.com/zalando/intellij-swagger
 
