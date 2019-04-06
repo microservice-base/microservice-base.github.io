@@ -34,7 +34,7 @@ go projesine ekle--> https://medium.freecodecamp.org/an-intro-to-dep-how-to-mana
 
 https://github.com/TykTechnologies/tyk api Gateway( apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kurallar yazabiliriz )
 --    
-https://istio.io/ service mesh (projedeki uygulamalarda kim kimi çağırıyor )
+https://istio.io/ service mesh ( projede uygulama servisleri kim kimi çağırıyor )
 --    
 https://jwt.io/ Json web token
 -- 
