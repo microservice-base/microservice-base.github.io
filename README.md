@@ -29,8 +29,8 @@ Alttakiler Düzenlenecektir :)
 
 go projesine ekle--> https://medium.freecodecamp.org/an-intro-to-dep-how-to-manage-your-golang-project-dependencies-7b07d84e7ba5
 
-    swagger i yaml ile oluşturmayı yap
-    https://github.com/zalando/intellij-swagger
+swagger i yaml ile oluşturmayı yap
+https://github.com/zalando/intellij-swagger
 
 https://github.com/TykTechnologies/tyk api Gateway( apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kurallar yazabiliriz )
 --    
