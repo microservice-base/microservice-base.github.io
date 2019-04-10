@@ -23,6 +23,14 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 --
 
 
+
+Licensing
+=========
+Moby is licensed under the Apache License, Version 2.0. See
+[LICENSE](LICENSE) for the full
+license text.
+
+
 Alttakiler Düzenlenecektir :)
 --
 [Link to page1](././pages/page1.md).
