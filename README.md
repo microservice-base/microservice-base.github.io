@@ -19,6 +19,8 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 [Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
 --
 
+basit docker komutlarını buraya ekleyeceğim
+
 [Shop Projesi - Java Projesini Docker Konteyner Haline Getirmek](././pages/page6.md)
 --
 
