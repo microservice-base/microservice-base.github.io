@@ -17,6 +17,10 @@ docker ps
 
 docker exec -it shopproject /bin/sh
 
+docker tag image-shop:v1 keramiozsoy/image-shop:v1
+
+docker push keramiozsoy/image-shop
+
 ```
 
 _yay_
