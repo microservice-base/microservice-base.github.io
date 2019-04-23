@@ -34,19 +34,12 @@ Projemize yeni kütüphaneleri ekleyebiliriz.
 https://github.com/naoina/go-stringutil
 ```
 Örnek projemizin adresi yukarıdadır fakat ekleme komutunu çalıştırırken http ve https kısmı olmadan yazıyoruz.
-
 ```
 dep ensure -add github.com/naoina/go-stringutil
 ```
+Kütüphanemiz kullanıma hazır.
 
-Artık kullanabiliriz.
-
-```
-dep ensure -examples
-```
-Yukarıdaki komut yardımı ile örnek diğer kullanımları görebiliriz.
-
-
+-----
 
 Projemizi geliştirirken her değişiklik yapıldığında açıp kapatmak yerine bu işi otomatik yapacak yani hot reload
 özelliği olan bir kütüphaneyi projemizde ekleyelim.
@@ -59,6 +52,16 @@ Projemizin bulunduğu ana klasör altında şu komutu çalıştırıp kullanmaya
 fresh
 ```
 Projemizde bir değişiklik yaptığımızda tek yapmamış gereken tarayıcımızı yenilemek :)
+
+----
+
+```
+dep ensure -examples
+```
+Yukarıdaki komut yardımı ile örnek diğer kullanımları görebiliriz.
+
+
+
 
 
 _yay_
