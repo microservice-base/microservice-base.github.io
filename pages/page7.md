@@ -48,5 +48,18 @@ Yukarıdaki komut yardımı ile örnek diğer kullanımları görebiliriz.
 
 
 
+Projemizi geliştirirken her değişiklik yapıldığında açıp kapatmak yerine bu işi otomatik yapacak yani hot reload
+özelliği olan bir kütüphaneyi projemizde ekleyelim.
+```
+dep ensure --add github.com/pilu/fresh
+```
+
+Projemizin bulunduğu ana klasör altında şu komutu çalıştırıp kullanmaya başlıyoruz.
+```
+fresh
+```
+Projemizde bir değişiklik yaptığımızda tek yapmamış gereken tarayıcımızı yenilemek :)
+
+
 _yay_
 [back](https://microservice-base.github.io/)
