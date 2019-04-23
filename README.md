@@ -24,8 +24,10 @@ basit docker komutlarını buraya ekleyeceğim gistten al
 [Shop Projesi - Java Projesini Docker Konteyner Haline Getirmek](././pages/page6.md)
 --
 
+[Basket Projesi - Go Dilinde Kütüphane Bağımlılıklarını Yönetmek](././pages/page7.md)
+--
 
-[Go Dilinde Test Yazmak](././pages/page3.md)
+[Basket Projesi - Go Dilinde Test Yazmak](././pages/page3.md)
 --
 
 
