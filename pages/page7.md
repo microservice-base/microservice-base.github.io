@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Go ile yazılan projelerde bağımlılık yönetimi - 
+# Go ile yazılan projelerde bağımlılık yönetimi  
 
 
 ## yeni bir bağımlılık eklemek
@@ -17,12 +17,9 @@ dep version
 
 ```
 Ardından projemizde bir klasör seçelim ve komutu çalıştıralım.
-
 ```
 dep init
-
 ```
-
 Komut çalıştıktan sonra iki adet dosya oluşur.
 
 ```
@@ -41,5 +38,15 @@ https://github.com/naoina/go-stringutil
 ```
 dep ensure -add github.com/naoina/go-stringutil
 ```
+
+Artık kullanabiliriz.
+
+```
+dep ensure -examples
+```
+Yukarıdaki komut yardımı ile örnek diğer kullanımları görebiliriz.
+
+
+
 _yay_
 [back](https://microservice-base.github.io/)
