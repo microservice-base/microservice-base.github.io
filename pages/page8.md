@@ -22,9 +22,11 @@ https://github.com/gorilla/mux
 https://github.com/julienschmidt/httprouter
 ```
 
-[net/http's ServeMux](https://www.youtube.com/watch?v=9a-WV2GVGLE)
-[Gorilla Web Toolkit's mux package](https://www.youtube.com/watch?v=HvkeolcijlY)
-[julienschmidt's httprouter](https://www.youtube.com/watch?v=LsSD917wCz0)
+- [net/http's ServeMux](https://www.youtube.com/watch?v=9a-WV2GVGLE)
+
+- [Gorilla Web Toolkit's mux package](https://www.youtube.com/watch?v=HvkeolcijlY)
+
+- [julienschmidt's httprouter](https://www.youtube.com/watch?v=LsSD917wCz0)
 
 _yay_
 [back](https://microservice-base.github.io/)
