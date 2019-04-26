@@ -50,6 +50,8 @@ Alttakiler Düzenlenecektir :)
 swagger i yaml ile oluşturmayı yap
 https://github.com/zalando/intellij-swagger
 
+https://medium.com/@swanandkeskar/rest-api-using-go-and-gorilla-mux-91cf63956de
+
 https://github.com/TykTechnologies/tyk api Gateway( apilerimizin önüne bir Gateway koyarak apilerimizi koruyacak kurallar yazabiliriz )
 --    
 https://istio.io/ service mesh ( projede uygulama servisleri kim kimi çağırıyor )
