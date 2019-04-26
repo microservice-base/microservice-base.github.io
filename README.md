@@ -27,6 +27,9 @@ basit docker komutlarını buraya ekleyeceğim gistten al
 [Basket Projesi - Go Dilinde Kütüphane Bağımlılıklarını Yönetmek](././pages/page7.md)
 --
 
+[Basket Projesi - Go Dilinde Url Yönlendiriciler](././pages/page8.md)
+--
+
 [Basket Projesi - Go Dilinde Test Yazmak](././pages/page3.md)
 --
 
