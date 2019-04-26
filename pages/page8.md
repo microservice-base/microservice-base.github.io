@@ -14,7 +14,7 @@ Go dili bunu varsayılan olarak desteklemektedir.
 ```
 https://golang.org/pkg/net/http/#HandleFunc
 ```
-Isteğe bağlı farklı çözümler mevcuttur.  Bu çözümlerde temel olanı daha kullanışlı olabilmesi için bir çok açıdan geliştirilmiştir
+Isteğe bağlı farklı çözümler mevcuttur. Temel olanı daha kullanışlı olabilmesi için bir çok açıdan geliştirmişlerdir.
 
 ```
 https://github.com/gorilla/mux
