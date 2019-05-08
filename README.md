@@ -4,7 +4,7 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 
 
     
-   [https://12factor.net/tr/](https://12factor.net/tr/)
+   [https://12factor.net/tr/](https://12factor.net/tr/) 
    --
     Proje 12factor kurallarını gerçeklemeye çalışarak geliştirilmektedir.
 
