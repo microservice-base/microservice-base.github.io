@@ -19,6 +19,9 @@
 [Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
 --
 
+[Shop Projesi - Java Projesine Spring Boot Actuator Modülü Entegrasyonu](././pages/page9.md)
+--
+
 basit docker komutlarını buraya ekleyeceğim gistten al
 
 [Shop Projesi - Java Projesini Docker Konteyner Haline Getirmek](././pages/page6.md)
