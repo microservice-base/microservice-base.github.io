@@ -10,7 +10,7 @@ Spring Boot ile yazılmış projemize Actuator modülü ekleyerek isteklerimiz g
 
 > https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-actuator
 
-Spring Boot Actuator modülü temelinde http://micrometer.io kullanmaktadır. Micrometer doğrudan projeye eklenip bir kaç kod eklemesinden sonra tüm metriklere ulaşılabilir. Biz bunlarla uğraşmadan spring boot actutor bize sağladığı yapıyı kolaylıkla kullanıyoruz.
+Spring Boot Actuator modülü temelinde http://micrometer.io kullanmaktadır. Projenin tüm metrik bilgilerin toplayop Spring Boot Actuator tarafından sunulmasını sağlayan Micrometer, doğrudan projeye eklenip bir kaç kod eklemesinden sonra da çalıştırılabilir. Biz bunlarla uğraşmadan spring boot actutor bize sağladığı yapıyı kolaylıkla kullanıyoruz.
 
 Projemiz **gradle** projesi olduğu için bu projeyi bir kütüphane olarak projemize eklemek için yapacağımız değişiklikler.
 
