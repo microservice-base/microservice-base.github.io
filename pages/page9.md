@@ -46,7 +46,6 @@ Projemiz **application.properties** dosyasına aşağıdaki eklemeyi servis ile 
 
 **application.properties**
 ```properties
-# INFO ENDPOINT CONFIGURATION
 info.app.name=@project.name@
 info.app.description=@project.description@
 info.app.version=@project.version@
