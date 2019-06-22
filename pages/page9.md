@@ -73,4 +73,4 @@ management.endpoints.web.exposure.include=*
 Bunların dışında eğer projemizi bir HTTP isteği yardımı ile kapatmak istersek şu şekilde yapabiliriz.
 Ben bu projeye eklemedim. Eğer eklerseniz Spring Security yardımı ile hangi kullanıcı rollerine sahip kullanıcılar örneğin admin bu actuator ile açılmış olan servislere istek atıp kullanabileceğini belirleyebilirsiniz.
 
-HTTP servisilerin hangi bilgileri vereceğini, örneğin projenin bulunduğu disk üzerindeki bilgileri paylaşmak için Spring tarafından sağlanan DiskSpaceHealthIndicator mevcuttur. Örnekler çoğaltılabilir hatta custom sınıf ve metotlar eklenbilmektedir.
+HTTP servisilerin hangi bilgileri vereceğini, örneğin projenin bulunduğu disk üzerindeki bilgileri paylaşmak için Spring tarafından sağlanan **DiskSpaceHealthIndicator** mevcuttur. Örnekler çoğaltılabilir hatta custom sınıf ve metotlar eklenbilmektedir.
