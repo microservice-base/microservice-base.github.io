@@ -7,6 +7,10 @@ Shop projesinin  sağlık durumunu yani çalışıp çalışmadığını görebi
 
 Spring Boot ile yazılmış projemize Actuator modülü ekleyerek isteklerimiz gerçekleştirebiliriz.
 
+
+> https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-actuator
+
+
 Projemiz **gradle** projesi olduğu için bu projeyi bir kütüphane olarak projemize eklemek için yapacağımız değişiklikler.
 
 
