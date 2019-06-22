@@ -49,13 +49,17 @@ Projemizi çalıştırdığımızda şu çıktıyı alıyoruz.
 
 Projemiz **application.properties** dosyasına aşağıdaki eklemeyi servis ile aynı isimde olacak şekilde info. ile başlayarak yaparsak,  /info üzerinden bilgileri paylaşabiliriz.
 
+
+
 **application.properties**
 ```properties
-info.app.name=@project.name@
-info.app.description=@project.description@
-info.app.version=@project.version@
-info.app.encoding=@project.build.sourceEncoding@
-info.app.java.version=@java.version@
+- https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html
+
+info.app.name=${project.name}
+info.app.description=${project.description}
+info.app.version=${project.version}
+info.app.encoding=${project.build.sourceEncoding}
+info.app.java.version=${java.version}
 ```
 
 Projemiz **application.properties** dosyasına aşağıdaki eklemeyi yaparsak çok daha fazla ulaşılabilecek servisi gözlemleyebiliriz. (/metrics için bu ekleme yapılmalıdır.)
