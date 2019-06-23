@@ -7,6 +7,11 @@ layout: default
 
 Shop projesinin Actuator modülü ekleyerek bazı bilgilere ulaşımı sağlamıştık.
 
+
+``
+	buraya prometheus ile ilgili biraz bilgi ekleyeceğim.
+``
+
 Shop projesinin Prometheus tarafından dinlenilecek url bilgisini açmak için değişiklikleri uygulayalım.
 
 Shop projesi gradle projesi olduğu için bağımlıkları ekleyelim.
@@ -47,7 +52,7 @@ ne kadar sürede Shop projesine ait son bilgilerin tekrar çekileceği mevcuttur
 **prometheus.yml**
 
 ```
-- job_name: 'spring-actuator'
+- job_name: 'spring-actuator-project-shop'
     metrics_path: '/shop/actuator/prometheus'
     scrape_interval: 5s
     static_configs:
