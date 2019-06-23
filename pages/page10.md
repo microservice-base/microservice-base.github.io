@@ -81,7 +81,7 @@ Shop projemizi çalıştırırken bu **volume**  parametre olarak  geçildiğind
 Shop projemizi çalıştıralım.
 
 ```
-docker run -d --name project-shop -v volumeprometheus:/prometheusfiles -p 8001:8001 image-shop:latest
+docker run -d --name project-shop -v volumeprometheus:/prometheusfiles -p 8001:8001 keramiozsoy/image-shop:latest
 
 ```
 
