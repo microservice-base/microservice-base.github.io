@@ -61,7 +61,7 @@ Prometheus un docker ile konteynerleştirilmiş hali ile çalışabiliriz.
 ```
 docker pull prom/prometheus
 
-docker run -d --name=prometheus -p 9090:9090 prom/prometheus --config.file=/etc/prometheus/prometheus.yml
+docker run -d --name=prometheus-test -p 9090:9090 prom/prometheus --config.file=/etc/prometheus/prometheus.yml
 
 open browser http://localhost:9090
              http://localhost:9090/targets
@@ -100,4 +100,12 @@ cat prometheusfiles/prometheus.yml
 exit
 ```
 
-Eğer Shop projesini konteyner ile çalıştırmayıp host makine üzerinden doğrudan çalıştırmış olsaydık **CONTAINER_IP** host ip bilgisini yazmlıydık.
+Eğer Shop projesini konteyner ile çalıştırmayıp host makine üzerinden doğrudan çalıştırmış olsaydık **CONTAINER_IP** host ip bilgisini yazmalıydık.
+
+Prometheus u oluşturduğumuz volume verisini okuyarak yeniden çalıştıralım.
+
+```
+docker run -it --rm --name prometheus -v volumeprometheus:/prometheusfiles -p 9090:9090 prom/prometheus --config.file=/prometheusfiles/prometheus.yml
+
+open browser http://localhost:9090/targets
+```
