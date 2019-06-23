@@ -111,3 +111,30 @@ docker run -d --name prometheus -v volumeprometheus:/prometheusfiles -p 9090:909
 
 open browser http://localhost:9090/targets
 ```
+
+Şimdi prometheus tarafındaki metrikleri inceleyelim.
+
+http://localhost:9090/graph
+
+Açılan sayfada **execute** butonu yanından ismi **up** olan metrik seçip execute butonuna basalım.
+**graph** bölümüne geçelim.
+
+**spring-actuator-project-shop** isimli metriği inceleyeceğiz. Projemizin hangi anlarda çalışıp çalışmadığını görelim.
+20 sn aralıklar ile aşağıdaki komutları çalıştıralım.
+
+docker restart project-shop
+docker restart project-shop
+docker restart project-shop
+
+Şimdi tekrar 
+http://localhost:9090/graph bölümünde projemizin çalıştığı ve çalışmadığı anları görebiliriz.
+
+Bu tarz bir çok metrik bilgisini inceleyebiliriz.
+
+Daha sonra bu grafikleri daha güzel görebilmek için https://grafana.com dan yardım alacağız.
+
+
+
+
+
+
