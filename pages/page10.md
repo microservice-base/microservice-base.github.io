@@ -121,10 +121,11 @@ Açılan sayfada **execute** butonu yanından ismi **up** olan metrik seçip exe
 
 **spring-actuator-project-shop** isimli metriği inceleyeceğiz. Projemizin hangi anlarda çalışıp çalışmadığını görelim.
 20 sn aralıklar ile aşağıdaki komutları çalıştıralım.
-
+```
 docker restart project-shop
 docker restart project-shop
 docker restart project-shop
+```
 
 Şimdi tekrar 
 http://localhost:9090/graph bölümünde projemizin çalıştığı ve çalışmadığı anları görebiliriz.
