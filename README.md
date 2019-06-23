@@ -19,17 +19,17 @@
 [Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
 --
 
+basit docker komutlarını buraya ekleyeceğim gistten al
+
+[Shop Projesi - Java Projesini Docker Konteyner Haline Getirmek](././pages/page6.md)
+--
+
 [Shop Projesi - Java Projesine Spring Boot Actuator Modülü Entegrasyonu](././pages/page9.md)
 --
 
 [Shop Projesi - Java Projesine Prometheus Entegrasyonu](././pages/page10.md)
 --
 
-
-basit docker komutlarını buraya ekleyeceğim gistten al
-
-[Shop Projesi - Java Projesini Docker Konteyner Haline Getirmek](././pages/page6.md)
---
 
 [Basket Projesi - Go Dilinde Kütüphane Bağımlılıklarını Yönetmek](././pages/page7.md)
 --
