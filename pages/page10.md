@@ -107,7 +107,7 @@ Eğer Shop projesini konteyner ile çalıştırmayıp host makine üzerinden do�
 Prometheus u oluşturduğumuz volume verisini okuyarak yeniden çalıştıralım.
 
 ```
-docker run -it --rm --name prometheus -v volumeprometheus:/prometheusfiles -p 9090:9090 prom/prometheus --config.file=/prometheusfiles/prometheus.yml
+docker run -d --name prometheus -v volumeprometheus:/prometheusfiles -p 9090:9090 prom/prometheus --config.file=/prometheusfiles/prometheus.yml
 
 open browser http://localhost:9090/targets
 ```
