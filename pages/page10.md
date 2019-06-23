@@ -65,6 +65,8 @@ docker run -d --name=prometheus-test -p 9090:9090 prom/prometheus --config.file=
 
 open browser http://localhost:9090
              http://localhost:9090/targets
+	     
+docker stop prometheus-test
 ```
 
 Prometheus arayüzüne ulaştık.
