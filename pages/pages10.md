@@ -26,20 +26,13 @@ Projemizi çalıştırdığımızda şu çıktıyı alıyoruz.
 ```json
 {
   _links: {
-    self: {
-      href: "http://localhost:8001/shop/actuator",
-      templated: false
-    },
-    health: {
-      href: "http://localhost:8001/shop/actuator/health",
-      templated: false
-    },
-    info: {
-      href: "http://localhost:8001/shop/actuator/info",
+  . . . 
+   - prometheus: {
+      href: "http://localhost:8001/shop/actuator/prometheus",
       templated: false
     }
+  . . .
   }
 }
-
 ```
 
