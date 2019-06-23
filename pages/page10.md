@@ -34,3 +34,31 @@ Projemizi çalıştırdığımızda şu çıktıyı alıyoruz.
 }
 ```
 
+Shop projesine prometheus.yml adıyla bir dosya ekledim. Bu dosya prometheus bizden bilgi çekerken ihtiyacı olan formattır.
+
+Örnek kullanımı burada mevcuttur.
+
+> https://prometheus.io/docs/prometheus/latest/configuration/configuration/
+
+
+Aşağıdaki gösterim ile prometheus üzerinden bakıldığında isminin ne olacağı ve hangi url üzerinden bilgilere ulaşacağı,
+ne kadar sürede Shop projesine ait son bilgilerin tekrar çekileceği mevcuttur.
+
+**prometheus.yml**
+
+```
+- job_name: 'spring-actuator'
+    metrics_path: '/shop/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+    - targets: ['CONTAINER_IP:8001']
+```
+
+Testtimize geçelim.
+
+Prometheus un docker ile konteyneleştirilmiş hali ile çalışabiliriz.
+
+
+
+
+
