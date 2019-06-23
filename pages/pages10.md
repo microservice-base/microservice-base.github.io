@@ -26,12 +26,10 @@ Projemizi çalıştırdığımızda şu çıktıyı alıyoruz.
 ```json
 {
   _links: {
-  . . . 
    - prometheus: {
       href: "http://localhost:8001/shop/actuator/prometheus",
       templated: false
     }
-  . . .
   }
 }
 ```
