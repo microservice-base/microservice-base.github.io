@@ -52,7 +52,7 @@ ne kadar sürede Shop projesine ait son bilgilerin tekrar çekileceği mevcuttur
 **prometheus.yml**
 
 ```
-- job_name: 'spring-actuator-project-shop'
+- job_name: 'project-shop-prometheus'
     metrics_path: '/shop/actuator/prometheus'
     scrape_interval: 5s
     static_configs:
