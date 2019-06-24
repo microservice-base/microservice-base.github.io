@@ -42,9 +42,12 @@ access : browser
 save & test
 
 new dashboard
-query
 
+query
 process_cpu_usage
+
+query
+jvm_memory_used_bytes
 
 ```
 
