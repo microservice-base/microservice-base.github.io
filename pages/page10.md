@@ -100,6 +100,8 @@ docker exec -it project-shop /bin/sh
 
 container_ip=$(awk 'END{print $1}' /etc/hosts)
 
+echo $container_ip
+
 sed -i "s/CONTAINER_IP/$container_ip/g" prometheusfiles/prometheus.yml
 
 cat prometheusfiles/prometheus.yml
