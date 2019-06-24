@@ -14,7 +14,7 @@ $ cd shop
 
 $ docker build  -t image-shop  -f container/docker/Dockerfile .
 
-$ docker run -d --name project-shop -p 8001:8001 keramiozsoy/image-shop:latest
+$ docker run -d --name project-shop -p 8001:8001 image-shop:latest
 
 $ docker tag image-shop:latest keramiozsoy/image-shop:latest
 
