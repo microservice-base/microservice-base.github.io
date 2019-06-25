@@ -41,6 +41,12 @@ url  : http://localhost:9090  -- prometheus url
 access : browser
 save & test
 
+```
+
+Kendimize ait dashboard ekranları tasarlayabiliriz. Prometheus tarafında okunabilen şu metrik isimlerini
+kullanarak bir ekran tasarlayabiliriz.
+
+```
 new dashboard
 
 query
@@ -48,8 +54,20 @@ process_cpu_usage
 
 query
 jvm_memory_used_bytes
-
 ```
 
+**Grafana** için daha önceden oluşturulup kurum veya kişilerce yayınlanan grafiklerin bir marketi mevcuttur.
 
+Shop projesi, **Prometheus** entegrasyonu yapılırken alt katmanda **micrometer.io** kullandığından bahsetmiştik.
 
+```
+- https://micrometer.io/docs/registry/prometheus
+```
+
+**Grafana Dashboard** bölümündeki grafiği kullabiliriz.
+
+```
+- https://grafana.com/dashboards/4701
+```
+
+Grafana yı açıyoruz. Explore ardından 4701 yazarak işlemi tamamlıyoruz.
