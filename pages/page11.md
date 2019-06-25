@@ -68,8 +68,10 @@ Shop projesi, **Prometheus** entegrasyonu yapılırken alt katmanda **micrometer
 
 ```
 - https://grafana.com/dashboards/4701
+veya
+- https://grafana.com/dashboards/6756
 ```
 
-Grafana yı açıyoruz. Import bölümünden **4701** yazarak ve **project-shop-prometheus** seçip kapatıyoruz.
+Grafana yı açıyoruz. Import bölümünden **6756** yazarak ve **project-shop-prometheus** seçip kapatıyoruz.
 
 
