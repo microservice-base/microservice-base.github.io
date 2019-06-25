@@ -140,6 +140,13 @@ http://localhost:9090/graph bölümünde projemizin çalıştığı ve çalışm
 
 Bu tarz bir çok metrik bilgisini inceleyebiliriz.
 
+Bunların dışında prometheus bir service discovery özelliği de görmektedir. Bağlantı kurulabilen uygulamaları görebilmek için
+kullanabiliriz.
+
+```
+- http://localhost:9090/service-discovery
+```
+
 Daha sonra bu grafikleri daha güzel görebilmek için https://grafana.com dan yardım alacağız.
 
 
