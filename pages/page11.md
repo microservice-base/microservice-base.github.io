@@ -74,6 +74,6 @@ veya
 
 Grafana yı açıyoruz. Import bölümünden **6756** yazarak ve **project-shop-prometheus** seçip kapatıyoruz.
 
-![Grafana](https://github.com/microservice-base/microservice-base.github.io/tree/master/images/project-shop-grafana.png)
+![Grafana](/images/project-shop-grafana.png)
 
 
