@@ -43,6 +43,7 @@ Shop projesine prometheus.yml adıyla bir dosya ekledim. Bu dosya prometheus biz
 
 Örnek kullanımı burada mevcuttur.
 
+> https://prometheus.io/docs/introduction/first_steps/#using-the-expression-browser
 > https://prometheus.io/docs/prometheus/latest/configuration/configuration/
 
 
