@@ -152,5 +152,5 @@ Daha sonra bu grafikleri daha güzel görebilmek için https://grafana.com dan y
 
 
 
-
+![Prometheus](/images/project-shop-prometheus.png)
 
