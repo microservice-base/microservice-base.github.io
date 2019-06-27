@@ -58,6 +58,8 @@ Alttakiler Düzenlenecektir :)
 [Link to page1](././pages/page1.md).
 
 
+docker run --cpu-quota maximumallwedcpu image_name
+
 swagger i yaml ile oluşturmayı yap
 https://github.com/zalando/intellij-swagger
 
