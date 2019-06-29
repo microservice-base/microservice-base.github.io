@@ -45,7 +45,7 @@ basit docker komutlarını buraya ekleyeceğim gistten al
 --
 
 
-[Ui Projesi - React Kütüphanesi Ile Arayüz Uygulaması Geliştirmek ](././pages/page12.md)
+[Ui Projesi - React Javascript Kütüphanesi Yardımı Ile Arayüz Uygulaması Geliştirmek ](././pages/page12.md)
 --
 
 
