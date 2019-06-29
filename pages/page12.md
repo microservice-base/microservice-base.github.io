@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Ui Projesi - React Javascript Kütüphanesi Ile Ui Projesi Geliştirelim
+# Ui Projesi - React Javascript Kütüphanesi Yardımı Ile Ui Projesi Geliştirelim
 
 > https://reactjs.org
 
