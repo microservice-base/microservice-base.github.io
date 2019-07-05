@@ -63,7 +63,7 @@ Moby is licensed under the Apache License, Version 2.0. See
 license text.
 
 
-Alttakiler Düzenlenecektir :)
+Alttaki bilgiler Düzenlenecektir :)
 --
 [Link to page1](././pages/page1.md).
 
