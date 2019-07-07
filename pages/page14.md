@@ -1,3 +1,13 @@
+---
+layout: default
+---
+# Account Projesi - Dotnet Core  Projesini Docker Konteyner Haline Getirmek
+
+
+## docker image oluşturmak
+
+
+```
 $ git clone https://github.com/microservice-base/account.git
 
 $ cd account
@@ -11,3 +21,11 @@ $ curl http://localhost:8003/api/values
 $ docker tag image-account:latest keramiozsoy/image-account:latest
 
 $ docker push keramiozsoy/image-account
+
+```
+
+_yay_
+[back](https://microservice-base.github.io/)
+
+
+
