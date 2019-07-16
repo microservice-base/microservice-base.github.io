@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Payment Projesi -  Payment  Projesini Docker Konteyner Haline Getirmek
+# Payment Projesi -  Python Projesini Docker Konteyner Haline Getirmek
 
 
 ## docker image oluşturmak
