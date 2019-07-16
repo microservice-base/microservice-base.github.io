@@ -57,7 +57,8 @@ basit docker komutlarını buraya ekleyeceğim gistten al
 
 [Account Projesi - Dotnet Core Projesini Docker Konteyner Haline Getirmek](././pages/page14.md)
 --
-
+[Payment Projesi - Python Projesini Docker Konteyner Haline Getirmek](././pages/page15.md)
+--
 
 
 Licensing
