@@ -19,8 +19,6 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 [Shop Projesi - Java Projesine Swagger Entegrasyonu](././pages/page5.md)
 --
 
-basit docker komutlarını buraya ekleyeceğim gistten al
-
 [Shop Projesi - Java Projesini Docker Konteyner Haline Getirmek](././pages/page6.md)
 --
 
@@ -57,6 +55,8 @@ basit docker komutlarını buraya ekleyeceğim gistten al
 
 [Account Projesi - Dotnet Core Projesini Docker Konteyner Haline Getirmek](././pages/page14.md)
 --
+
+
 [Payment Projesi - Python Projesini Docker Konteyner Haline Getirmek](././pages/page15.md)
 --
 
