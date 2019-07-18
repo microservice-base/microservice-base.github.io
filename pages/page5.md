@@ -5,7 +5,9 @@ layout: default
 
 Shop projesine ait dışarı açılan servisleri güzel bir arayüz ile dışarı açmak istiyoruz.
 
-- https://swagger.io/
+Swagger kendi sitesinde bir çok dil için kullanıma hazır projeler mevcuttur.
+
+- https://swagger.io/tools/open-source/open-source-integrations/
 - http://springfox.github.io/springfox/
 
 Shop projemiz bir java projesi olduğu için **springfox** projesi bizim işimizi görüyor.
