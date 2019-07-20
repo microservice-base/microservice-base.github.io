@@ -14,7 +14,7 @@ $ cd ui
 
 $ docker build --no-cache  -t image-payment  -f container/docker/Dockerfile .
 
-$ docker run -d --name project-payment -p 8004:8004 image-payment:latest
+$ docker run -d --name app-payment -p 8004:8004 image-payment:latest
 
 $ docker tag image-payment:latest keramiozsoy/image-payment:latest
 
