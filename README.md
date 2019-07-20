@@ -74,7 +74,7 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 
 Licensing
 =========
-Moby is licensed under the Apache License, Version 2.0. See
+microservice-base is licensed under the MIT License, Version 2.0. See
 [LICENSE](https://github.com/microservice-base/microservice-base.github.io/blob/master/LICENSE) for the full
 license text.
 
