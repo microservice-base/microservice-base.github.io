@@ -126,8 +126,3 @@ https://www.projectcalico.org/
 --
 free ssl  --  https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-create-ssl-certificates/
 --
-
-
-# Welcome to GitHub Pages
-
-[Link to another page](./another-page.md).
