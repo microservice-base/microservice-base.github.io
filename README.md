@@ -31,7 +31,8 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 [Shop Projesi - Java Projesine Grafana Entegrasyonu](././pages/page11.md)
 --
 
-
+***
+***
 
 
 [Basket Projesi - Go Dilinde Kütüphane Bağımlılıklarını Yönetmek](././pages/page7.md)
@@ -46,7 +47,8 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 [Basket Projesi - Go Projesini Docker Konteyner Haline Getirmek ](././pages/page16.md)
 --
 
-
+***
+***
 
 
 
@@ -56,9 +58,14 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 [Ui Projesi - React Projesini Docker Konteyner Haline Getirmek](././pages/page13.md)
 --
 
+***
+***
 
 [Account Projesi - Dotnet Core Projesini Docker Konteyner Haline Getirmek](././pages/page14.md)
 --
+
+***
+***
 
 
 [Payment Projesi - Python Projesini Docker Konteyner Haline Getirmek](././pages/page15.md)
