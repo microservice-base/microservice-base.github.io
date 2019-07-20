@@ -70,6 +70,9 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 
 [Payment Projesi - Python Projesini Docker Konteyner Haline Getirmek](././pages/page15.md)
 --
+[Payment Projesi - Python Projesini Swagger Entegrasyonu](././pages/page16.md)
+--
+
 
 
 Licensing
