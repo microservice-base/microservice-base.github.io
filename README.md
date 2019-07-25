@@ -104,8 +104,6 @@ license text.
 
 Alttaki bilgiler Düzenlenecektir :)
 --
-[Link to page1](././pages/page1.md).
-
 
 docker run --cpu-quota maximumallwedcpu image_name
 
