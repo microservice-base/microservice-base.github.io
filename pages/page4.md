@@ -61,6 +61,7 @@ Servis sınıfımızın metotlarının sonçlarını beklediğimiz sonuçlar ile
 
 ## Api Katmanı
 
+Projeye gelen ve giden isteklere karşılık sağlayacak metotların olduğu sınıflardır.
 
 
 
