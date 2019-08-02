@@ -147,7 +147,14 @@ kullanabiliriz.
 - http://localhost:9090/service-discovery
 ```
 
-Daha sonra bu grafikleri daha güzel görebilmek için https://grafana.com dan yardım alacağız.
+Daha sonra bu grafikleri daha güzel görebilmek için **https://grafana.com** dan yardım alacağız.
+
+
+``
+ip set işlemini container dışından otomatik alacak şekilde geliştirme yapalıyım
+
+Set your IP IP=$(ifconfig en0 | grep 'inet ' | awk '{print $2}') or manually IP=192.168.1.123
+``
 
 
 
