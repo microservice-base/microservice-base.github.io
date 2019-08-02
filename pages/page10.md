@@ -25,7 +25,7 @@ dependencies {
 ```
 Projemizi çalıştırdığımızda şu çıktıyı alıyoruz.
 
-- http://localhost:8001/shop/actuator
+> http://localhost:8001/shop/actuator
 
 
 ```json
@@ -122,7 +122,7 @@ open browser http://localhost:9090/targets
 
 Şimdi prometheus tarafındaki metrikleri inceleyelim.
 
-http://localhost:9090/graph
+> http://localhost:9090/graph
 
 Açılan sayfada **execute** butonu yanından ismi **up** olan metrik seçip execute butonuna basalım.
 **graph** bölümüne geçelim.
@@ -136,28 +136,28 @@ docker restart project-shop
 ```
 
 Şimdi tekrar 
-http://localhost:9090/graph bölümünde projemizin çalıştığı ve çalışmadığı anları görebiliriz.
+**http://localhost:9090/graph**
+bölümünde projemizin çalıştığı ve çalışmadığı anları görebiliriz.
 
 Bu tarz bir çok metrik bilgisini inceleyebiliriz.
 
 Bunların dışında prometheus bir service discovery özelliği de görmektedir. Bağlantı kurulabilen uygulamaları görebilmek için
 kullanabiliriz.
 
-```
-- http://localhost:9090/service-discovery
-```
+ 
+> http://localhost:9090/service-discovery
+ 
 
 Daha sonra bu grafikleri daha güzel görebilmek için **https://grafana.com** dan yardım alacağız.
 
 
-``
-ip set işlemini container dışından otomatik alacak şekilde geliştirme yapalıyım
-
-Set your IP IP=$(ifconfig en0 | grep 'inet ' | awk '{print $2}') or manually IP=192.168.1.123
-``
-
-
-
 
 ![Prometheus](/images/project-shop-prometheus.png)
+
+```
+ip set işlemini container dışından otomatik alacak şekilde geliştirme yapalmalıyım
+
+Set your IP IP=$(ifconfig en0 | grep 'inet ' | awk '{print $2}') or manually IP=192.168.1.123
+```
+
 
