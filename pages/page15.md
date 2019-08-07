@@ -10,7 +10,7 @@ layout: default
 ```
 $ git clone https://github.com/microservice-base/payment.git
 
-$ cd ui 
+$ cd payment 
 
 $ docker build --no-cache  -t image-payment  -f container/docker/Dockerfile .
 
