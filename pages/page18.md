@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Infrastracture Projesi - Kubernetes Kullanarak Alt Yapı Projesi Geliştirelim
+# Infrastracture Projesi - Kubernetes Kullanarak Altyapı Projesi Geliştirelim
 
 > https://github.com/microservice-base/infrastracture
 
