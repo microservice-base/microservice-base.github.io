@@ -9,6 +9,8 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
     Proje 12factor kurallarını gerçeklemeye çalışarak geliştirilmektedir.
 
 
+[Infrastracture Projesi - Tüm Altyapı Geliştirelim](././pages/page18.md)
+--
 
 [Java Dilinde Test Yazmak](././pages/page2.md)
 --
