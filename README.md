@@ -9,8 +9,14 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
     Proje 12factor kurallarını gerçeklemeye çalışarak geliştirilmektedir.
 
 
+***
+***
+
 [Infrastracture Projesi - Tüm Altyapı Geliştirelim](././pages/page18.md)
 --
+
+***
+***
 
 [Java Dilinde Test Yazmak](././pages/page2.md)
 --
@@ -36,7 +42,6 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 ***
 ***
 
-
 [Basket Projesi - Go Dilinde Kütüphane Bağımlılıklarını Yönetmek](././pages/page7.md)
 --
 
@@ -52,8 +57,6 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 ***
 ***
 
-
-
 [Ui Projesi - React Javascript Kütüphanesi Yardımı Ile Arayüz Uygulaması Geliştirmek ](././pages/page12.md)
 --
 
@@ -68,7 +71,6 @@ Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje 
 
 ***
 ***
-
 
 [Payment Projesi - Python Projesini Docker Konteyner Haline Getirmek](././pages/page15.md)
 --
@@ -87,7 +89,8 @@ license text.
 
 
 
-
+***
+***
 
 
 
