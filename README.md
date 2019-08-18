@@ -1,6 +1,6 @@
 # microservice-base
 
-Basitçe farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışmasını amaçlar.
+Basitçe birbirinden farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışmasını amaçlar.
 
 
     
