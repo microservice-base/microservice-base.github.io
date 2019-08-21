@@ -1,6 +1,6 @@
 # microservice-base
 
-Basitçe birbirinden farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışmasını amaçlar.
+Basitçe birbirinden farklı diller ile yazılmış küçük projelerin birleşip tek proje olarak çalışan basit bir e ticaret uygulaması yapmaya çalışıyorum. Katkı yapmak isteyeleri bekliyorum :)
 
 
     
