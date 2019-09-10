@@ -87,9 +87,6 @@ microservice-base is licensed under the MIT License, Version 2.0. See
 license text.
 
 
-
-
-
 ***
 ***
 
