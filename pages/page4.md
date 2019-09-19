@@ -29,7 +29,8 @@ Uygulamamızın katmanları bazı katmanları mevcuttur.
 Veritabanına ulaşıp  kayıt ekleme, kayıt silme, kayıt bulma gibi işlemlerin yapılmasını sağlayan katmandır.
 
 
-- https://github.com/microservice-base/shop/blob/master/shop/src/test/java/test/com/shop/product/dao/ProductDAOTest.java
+- https://github.com/microservice-base/shop/blob/master/shop/src/test/java/com/shop/product/dao/ProductDAOTest.java
+
 
 Sınıfımızın başında veritabanı işlemlerini yapabilmemiz için Spring Framework anotasyonu olan **@DataJpaTest** mevcuttur.
 
@@ -47,7 +48,8 @@ DAO sınıfımıza ait metotların sonuçlarını kontrol ederek testimizi çal�
 
 DAO katmanı işlemlerini kullanabilmek için çağırdığımızı metotların bulunduğu katmandır.
 
-- https://github.com/microservice-base/shop/blob/master/shop/src/test/java/test/com/shop/product/service/impl/ProductBusinessServiceImplTest.java
+- https://github.com/microservice-base/shop/blob/master/shop/src/main/java/com/shop/product/service/impl/ProductBusinessServiceImpl.java
+
 
 Sınıfımızın başında Spring Framework anotasyonu olan **@SpringBootTest** mevcuttur.
 
@@ -61,8 +63,9 @@ Servis sınıfımızın metotlarının sonçlarını beklediğimiz sonuçlar ile
 
 ## Api Katmanı
 
-Projeye gelen ve giden isteklere karşılık sağlayacak servislerin olduğu sınıflardır.
+Projeye gelen isteklere karşılık sağlayacak servislerin olduğu sınıflardır.
 
+- https://github.com/microservice-base/shop/tree/master/shop/src/main/java/com/shop/product/api
 
 
 _yay_
