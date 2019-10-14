@@ -80,7 +80,8 @@ Basitçe birbirinden farklı diller ile yazılmış küçük projelerin birleşi
 
 
 
-## Licensing
+### Licensing
+
 =========
 
 microservice-base is licensed under the MIT License, Version 2.0. See
