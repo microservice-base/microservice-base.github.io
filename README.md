@@ -139,7 +139,7 @@ free ssl  --  https://www.linode.com/docs/security/ssl/install-lets-encrypt-to-c
 
 ### Support the development
 
-You can support the development of Vid and V on Patreon:
+You can support the development of this project on Patreon:
 
 <a href='https://www.patreon.com/keramiozsoy'><img src='https://camo.githubusercontent.com/3baa6f57d721101b50f691de31b730b9fbcc3a8a/68747470733a2f2f766c616e672e696f2f696d672f70617472656f6e2e706e67' width=200></a>
 
