@@ -122,7 +122,7 @@ https://github.com/TykTechnologies/tyk api Gateway( apilerimizin önüne bir Gat
  
 https://istio.io/ service mesh ( projede uygulama servisleri kim kimi çağırıyor )
 
-https://www.kiali.io
+https://www.kiali.io  # gorsellestirme
 
 https://github.com/Kong/kong
 
