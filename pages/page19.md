@@ -38,3 +38,6 @@ Run **shop application**
 open localhost:8001/shop/h2
 ```
 
+![H2 Console](/images/project-shop-h2-db.png)
+
+
