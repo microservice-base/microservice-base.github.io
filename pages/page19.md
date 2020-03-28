@@ -5,6 +5,12 @@ layout: default
 
 > https://github.com/microservice-base/shop
 
-``
-    h2
-``
+**build.gradle**
+
+```groovy
+dependencies{
+
+runtimeOnly('com.h2database:h2')
+
+}
+```
