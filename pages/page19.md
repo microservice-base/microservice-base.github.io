@@ -34,4 +34,7 @@ spring.datasource.driver-class-name=org.h2.Driver
 
 Run **shop application** 
 
+```
 open localhost:8001/shop/h2
+```
+
