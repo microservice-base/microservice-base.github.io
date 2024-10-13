@@ -79,6 +79,7 @@ Basitçe birbirinden farklı diller ile yazılmış küçük projelerin birleşi
 
 [Payment Projesi - Python Projesini Docker Konteyner Haline Getirmek](././pages/page15.md)
 --
+
 [Payment Projesi - Python Projesini Swagger Entegrasyonu](././pages/page16.md)
 --
 
